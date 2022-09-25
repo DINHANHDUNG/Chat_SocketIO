@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 import "./App.css";
-const host = "http://localhost:3000";
+// const host = "http://localhost:3000";
+const host = "https://chat-api-server-nodejs.herokuapp.com/";
 
 function App() {
   const [mess, setMess] = useState([]);
